@@ -5,7 +5,7 @@
 let contador = 1;
 let menorAltura = 0;
 let maiorAltura = 0;
-while (contador <= 5){
+while (contador <= 15){
     let altura =parseFloat(prompt(`digite sua altura ${contador}`));
 
     if (altura < maiorAltura){
